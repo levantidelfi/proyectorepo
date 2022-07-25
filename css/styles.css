@@ -54,6 +54,31 @@ h2{
     flex-direction: row;
 }
 
+.lista-navegacion li a:hover{
+    color: #EBDDC3;
+    background-color: black;
+    padding: 8px 15px;
+}
+
+.card__productos:hover{
+    transform: scale(1.2);
+    transition: all ease-in-out 1s;
+} 
+
+.promo:hover{
+    transform: scale(1.2);
+    transition: all ease-in-out 1s;
+}
+
+.footer__redes a:hover{
+    color: black;
+}
+
+.card__productos2:hover{
+    transform: scale(1.2);
+    transition: all ease-in-out 1s;
+}
+
 
 .lista-navegacion a {
     text-decoration: none;
