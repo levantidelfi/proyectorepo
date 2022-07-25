@@ -24,7 +24,6 @@ h2{
 }
 
 .header{
-    background-image:linear-gradient(to left,#B3B1AD, #FFF6D9);
     display: flex;
     align-items: center;
     height: 130px;
@@ -62,13 +61,6 @@ h2{
     font-weight: 550;
     font-size: larger;
    
-}
-
-
-.lista-navegacion li a:hover{
-    color: #EBDDC3;
-    background-color: black;
-    padding: 8px 15px;
 }
 
 
