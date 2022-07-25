@@ -64,17 +64,15 @@ h2{
    
 }
 
-.lista-navegacion li{
-    list-style-type: none;
-}
-
-
-.lista-navegacion li a:hover {
-    background-color: rgb(0, 0, 0); 
-    color: beige;
+.lista-navegacion li a:hover{
+    color: #EBDDC3;
+    background-color: black;
     padding: 8px 15px;
 }
 
+.lista-navegacion li{
+    list-style-type: none;
+}
 
 
 /*Seccion de inicio*/
@@ -124,15 +122,17 @@ h2{
     
 }
 
+.promo:hover{
+    transform: scale(1.2);
+    transition: all ease-in-out 1s;
+}
+
 .card__productos--oferta{
     display: flex;
     justify-content: center;
 }
 
-.promo:hover{
-    transform: scale(1.2);
-    transition: all ease-in-out 1s;
-}
+
 
 .card__imagen{
     width: 12rem;
@@ -243,6 +243,7 @@ h2{
     align-items: center;
     gap: 2rem;
 }
+
 .footer__redes li{
     list-style: none;
     margin-right: 10px;
@@ -254,6 +255,9 @@ h2{
     font-size: 25px;
 } 
 
+.footer__redes a:hover{
+    color: black;
+}
 /*Seccion nosotros*/
 
 .nosotros {
