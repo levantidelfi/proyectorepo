@@ -122,11 +122,6 @@ h2{
     
 }
 
-.promo:hover{
-    transform: scale(1.2);
-    transition: all ease-in-out 1s;
-}
-
 .card__productos--oferta{
     display: flex;
     justify-content: center;
@@ -253,10 +248,6 @@ h2{
     color: #666666;
     font-size: 25px;
 } 
-
-.footer__redes a:hover{
-    color: black;
-}
 /*Seccion nosotros*/
 
 .nosotros {
