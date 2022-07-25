@@ -64,6 +64,14 @@ h2{
    
 }
 
+
+.lista-navegacion li a:hover{
+    color: #EBDDC3;
+    background-color: black;
+    padding: 8px 15px;
+}
+
+
 .lista-navegacion li{
     list-style-type: none;
 }
@@ -112,6 +120,11 @@ h2{
     margin-top: 1rem;
     margin-bottom: 2rem;
     
+}
+
+.promo:hover{
+    transform: scale(1.2);
+    transition: all ease-in-out 1s;
 }
 
 .card__productos--oferta{
@@ -229,6 +242,7 @@ h2{
     align-items: center;
     gap: 2rem;
 }
+
 .footer__redes li{
     list-style: none;
     margin-right: 10px;
@@ -240,6 +254,9 @@ h2{
     font-size: 25px;
 } 
 
+.footer__redes a:hover{
+    color: black;
+}
 /*Seccion nosotros*/
 
 .nosotros {
