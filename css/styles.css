@@ -99,7 +99,6 @@ h2{
 }
 
 
-
 .card__caja{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -113,6 +112,7 @@ h2{
     margin-bottom: 2rem;
     
 }
+
 
 .card__productos--oferta{
     display: flex;
@@ -240,6 +240,7 @@ h2{
     color: #666666;
     font-size: 25px;
 } 
+
 /*Seccion nosotros*/
 
 .nosotros {
@@ -327,6 +328,7 @@ h2{
 
     border: solid 2px #7F7A74;
 }
+
 
 .card__caja2{
     display: grid;
