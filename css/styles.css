@@ -29,6 +29,7 @@ h2{
     height: 130px;
   
     gap: 2rem;
+    background-color: #3a3a3a;
 
 }
 
@@ -59,10 +60,7 @@ h2{
     padding: 8px 15px;
 }
 
-.card__productos:hover{
-    transform: scale(1.2);
-    transition: all ease-in-out 1s;
-} 
+
 
 .promo:hover{
     transform: scale(1.2);
@@ -106,12 +104,26 @@ h2{
     max-width: 100%;
 }
 
+.titulo{
+    background-color: #cab2b2;
+}
+
+.carousel-coder{
+    background-color: rgb(221, 200, 200);
+}
+
+.carousel-inner img {
+    max-height: 40rem;
+    max-width: 85rem;
+}
+
 .productos{
-   background-color: #E7E7E7;
+   background-color: #e7c9c9;
+   margin-top: auto;
 }
 
 
-.card__productos{
+/* .card__productos{
     background-color: #EBDDC3;
     width: 14rem;
     height: 14rem;
@@ -119,9 +131,30 @@ h2{
     margin-bottom: 4rem;
     padding-left: 2rem;
     padding-top: 2rem;
+    margin-top: 2rem;
 
     border: solid 2px #7F7A74;
-}
+} */
+
+.card__productos {
+    position: relative;
+    width: 335px;
+    height: 350px;
+    background: #191919;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: auto auto;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+    padding-left: 3rem;
+    padding-top: 2rem;
+  }
+
+  
+.card__productos:hover{
+    transform: scale(1.2);
+    transition: all ease-in-out 1s;
+} 
 
 
 .card__caja{
@@ -131,32 +164,49 @@ h2{
 }
 
 .promo{
-    width: 700px;
-    height: 270px;
+    width: 400px;
+    height: 290px;
     margin-top: 1rem;
     margin-bottom: 2rem;
-    
+    max-width: 100%;
 }
 
 
 .card__productos--oferta{
     display: flex;
     justify-content: center;
+    flex-direction: row;
+    gap: 2rem;
 }
 
 
 
 .card__imagen{
-    width: 12rem;
-    height: 12rem;
+    width: 15rem;
+    height: 15rem;
 }
 
 .card__enlace{
-    display: block;
+    display: inline-block;
     text-decoration: none;
     color: #666666;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
     font-weight: 550;
+    padding: 10px 15px;
+    padding-left: 10px;
+     margin-top: 20px;
+    /* margin: auto;   */
+    color: #000000; 
+    text-decoration: none;
+    background: white;
+    border-radius: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+
+.card__enlace:hover{
+    color: grey;
 }
 
 
@@ -323,12 +373,12 @@ h2{
     color: #363434;
     font-size: 20px;
     line-height: 1.8;
-    margin-left: 1rem;
+    /* margin-left: 1rem;
     margin-right: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 2rem; */
 }
 
-.preguntasfrecuentes iframe{
+.container-fluid iframe{
     width: 600px;
     height: 300px;
     display: block;
@@ -380,7 +430,7 @@ h2{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
     font-weight: 550;
     font-size: 14px;
-}
+} 
 
 @media screen and (max-width: 480px) {
 
@@ -439,24 +489,43 @@ h2{
         
     }
 
+    
+
     .card__productos{
         
-        width: 11rem;
-        height: 11rem;
+        width: 13rem;
+        height: 13rem;
         margin: auto auto;
         margin-top: 2rem;
-        padding-left: 3rem;
+        margin-bottom: 2rem;
+        padding-right: 3rem; 
+        padding-bottom: 10px;
+       
         max-width: 100%;
     } 
 
     .card__enlace{
-        margin-top: 20px;
+        margin-top: 10px;
+        padding: 3px 5px;
+        padding-left: 3px;
+        font-weight: 500;
+        font-size: 12px;
     }
 
     .promo{
-        width: 15rem;
-        height: 10rem;
+         width: 10rem;
+        height: 10rem; 
         max-width: 100%;
+        margin-bottom: 18px;
+        /* padding-left: 15px;
+        padding-right: 10px; */
+    }
+
+    .card__productos--oferta{
+        flex-direction: column;
+        align-items: center;
+        margin-top: auto;
+        gap: 10px;
     }
 
     .whatsapp img {
@@ -477,10 +546,11 @@ h2{
     }
     /*seccion preguntas*/
 
-    .preguntasfrecuentes iframe{
-        width: 80%;
+    .container-fluid iframe{
+        max-width: 100%;
         height: 15rem;
     }
+
 
     .pregunta{
         font-size: 17px;
