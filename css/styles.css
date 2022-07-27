@@ -353,6 +353,15 @@ h2{
     justify-content: center;
 }
 
+.container{
+    padding-bottom: 2rem;
+}
+
+/* .container fieldset{
+    border-color: grey;
+    border-style: solid;
+} */
+
 /*Seccion preguntas frecuentes*/
 
 .preguntasfrecuentes{
